@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    font-size: 30px;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+}
+
+
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    background-color: chartreuse;
+    border: none;
+    margin: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}

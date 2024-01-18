@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 200px;
+}
+
+.time{
+    font-size: 50px;
+}
+
+.divider{
+    font-size: 50px;
+}

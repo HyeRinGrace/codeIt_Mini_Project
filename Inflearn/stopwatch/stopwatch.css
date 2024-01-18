@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+
+
+
+.time{
+    font-size: 30px;
+}
+
+.divider{
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+
+}
+
+button{
+    background-color:cadetblue;
+    color: white;
+    border:none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}

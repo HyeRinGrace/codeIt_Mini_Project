@@ -1,0 +1,41 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+    background-color:gainsboro;
+    border:none;
+}
+button{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    color:white;
+}
+
+button:hover{
+    background-color: darkcyan;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
